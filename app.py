@@ -40,9 +40,9 @@ def main():
     st.button('View README file', on_click=open_page, args=('https://docs.google.com/document/d/1vfzPba5eqSnfXkRSk6Z-mWvx67zz67ghw9XwfZ3R41E/edit?usp=sharing',))
     st.title("App 01: Movie Sentiment Analysis TTT")
     st.header("HuggingFace, Json, Python, Streamlit, Transformers")
-    text = st.text_area('Write a review of the last movie you saw then press Ctrl + Enter.')
+    text = st.text_area('Write a review of the last movie you saw then press Review It.')
     
-    if st.button('My Review'):
+    if st.button('Review It!'):
         analyseReview(text)
 
 # Logic
