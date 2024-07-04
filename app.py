@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit.components.v1 import html
 import json
 
-# Initialize pipeline globally to avoid reloading it every time
+# Initialize pipeline globally to avoid reloading it each time
 pipe = pipeline('sentiment-analysis')
 
 # Functions
