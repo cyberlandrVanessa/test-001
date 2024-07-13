@@ -6,7 +6,7 @@ import json
 # Initialize pipeline globally to avoid reloading it each time
 pipe = pipeline('sentiment-analysis')
 
-# Functions
+# Functions...
 def open_page(url):
     open_script = f"""
         <script type="text/javascript">
